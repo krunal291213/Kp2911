@@ -15,15 +15,15 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s │ %(name)s │ %(levelname)s │ %(message)s"
 )
-logger = logging.getLogger(__admin__)
+logger = logging.getLogger(__name__)
 
 # ─── Configuration ──────────────────────────────────────────────────────────────
-API_ID = 25134698
-API_HASH = "6b66c879f765a0662a3ad030f8ae45f7"
-BOT_TOKEN = "7534898778:AAHoiHvNvFKu0xZu1jJQikpL2ydRSU4MZII"
+API_ID = xxxxxxx
+API_HASH = "xxxxxxxx"
+BOT_TOKEN = "xxxxxxxxxx:xxxxxxxxxxxx"
 
 # Only these user IDs can trigger /setchannel or upload
-ALLOWED_USER_IDS = [-1003054651399]
+ALLOWED_USER_IDS = [xxxxxxxxxxxxxxxx]
 
 app = Client(
     "simple_subject_bot",
